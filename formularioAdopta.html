@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tabla de ingredientes</title>
+  <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+  <h3>Buscando un nuevo amigo</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Características</th>
+        <th>Opciones</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><label for="nombre">Nombre de su nuevo amigo </label></td>
+            <td>
+                <input id="nombre" type="text" maxlength="100"
+                placeholder="Escriba el nombre aquí" required></td>
+          </tr>
+          <tr>
+            <td><label for="nombre">Dirección de entrega </label></td>
+            <td>
+                <input id="direccion" type="text" maxlength="100"
+                placeholder="Escriba aquí su dirección" required></td>
+          </tr>
+          <tr>
+            <td><label>Teléfono de contacto </label></td>
+            <td><input type="tel" placeholder="+52" required></td>         
+          </tr>
+          <tr>
+            <td><label for="nombre">Nombre completo del propietario </label></td>
+            <td>
+                <input id="nombre" type="text" maxlength="100"
+                placeholder="Escriba su nombre aquí" required></td>
+          </tr>
+          <tr>
+            <td><label>Email</label></td>
+            <td> <input type="email" placeholder="ejemplo@gmail.com"></td>
+          </tr>
+      <tr>
+        <td><label>Fecha en la que puede asistir al refugio </label></td>
+        <td> <input type="date">
+        </td>
+      </tr>
+      <tr>
+        <td><label>Marque un horario de asistencia </label></td>
+        <td> <input type="time">
+        </td>
+      </tr>
+      <tr>
+        <td>Altura de su interés </td>
+        <td>Raza pequeña <input name="altura" type="radio"> Raza mediana <input type="radio"> Raza grande <input type="radio"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><label>Pelaje </label></td>
+        <td>Abundante <input name="pelaje" type="radio">
+        Corto <input name="pelaje" type="radio">
+        Sin pelo <input name="pelaje" type="radio"></td>
+      </tr>
+      <tr>
+        <td><label> Humor </label></td>
+        <td>Tranquilo <input name="humor" type="radio">
+        Juguetón <input name="humor" type="radio">
+       Enérgico <input name="humor" type="radio"></td>
+      </tr>
+      <tr>
+        <td>Posible color de tu amigo</td>
+        <td><input type="color"> <input type="color"> <input type="color"></td>
+      </tr>
+      <tr>
+        <td><label>Foto de tu identificación</label></td>
+        <td><input type="file" accept=".jpg, .png"></td>
+      </tr>
+      
+    </tbody>
+    
+  </table>
+</body>
+
+<br>
+
+<p></p>
+<label>Estás de acuerdo con las políticas de protección y uso de datos personales</label>
+<br> <a href="./Política de privacidad y protección de datos personales.pdf" target="_blank"> Consultar</a>
+<br>
+<input name="agua" type="checkbox" required>
+<br>
+<br>
+<input type="submit" value="Enviar información">
+</html>
