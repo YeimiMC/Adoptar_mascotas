@@ -1,0 +1,44 @@
+h1{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; 
+    font-size: 50px; 
+    color: #b7f5fa; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+body {
+    background: linear-gradient(to right, #c31432, #240b36);
+    text-align: center
+}
+
+h2{
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    font-size: 30px; 
+    color: #EBD758; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+
+h3{
+    text-align: center; 
+    font-family: Arial; 
+    font-size: 30px; 
+    COLOR: #12bf4c; 
+    text-shadow: 0px 0px 9px #508AD3;
+}
+
+img{
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(172, 172, 59);
+    text-align: center
+}
+
+
